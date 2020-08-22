@@ -1,0 +1,19 @@
+{
+    "name":"Vivero",
+    "namespace":"App",
+    "complete_name":"App\\Vivero",
+    "table":{
+        "name":"viveros",
+        "colums":[
+                    { "name":"id", "type":"Integer", "length":"", "nullable":"", "autoincrement":"1", "default":"" },
+                                { "name":"nombre", "type":"String", "length":"50", "nullable":"", "autoincrement":"", "default":"" },
+                                { "name":"direccion", "type":"String", "length":"50", "nullable":"", "autoincrement":"", "default":"" },
+                                { "name":"email", "type":"String", "length":"50", "nullable":"", "autoincrement":"", "default":"" },
+                                { "name":"telefono", "type":"String", "length":"15", "nullable":"", "autoincrement":"", "default":"" },
+                                { "name":"created_at", "type":"DateTime", "length":"0", "nullable":"1", "autoincrement":"", "default":"" },
+                                { "name":"updated_at", "type":"DateTime", "length":"0", "nullable":"1", "autoincrement":"", "default":"" },
+                                { "name":"deleted_at", "type":"DateTime", "length":"0", "nullable":"1", "autoincrement":"", "default":"" }                ]
+    },
+    "relations": [
+            ]
+}
